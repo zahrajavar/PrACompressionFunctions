@@ -1,11 +1,11 @@
 ## Preimage Aware Compression Functions
-The codes can be run in [Octave](https://octave.org/). These codes are based on the research been done in "Preimage awareness in Linicrypt" to generate preimage aware compression functions in random oracle model.
+The codes can be run in [Octave](https://octave.org/). These codes are based on the research done in "Preimage awareness in Linicrypt" to generate preimage-aware compression functions in the random oracle model.
 ### PrA2Inputs2Calls.m
-This code generates all 76 possible PrA compression functions with 2 inputs and 2 random oracle calls. Each function being presented as a 3 $\times$ 4 matix where the first two rows corrospond to the first and the second oracle calls input and the third row corrospond to the function result. The first and second collumn also are corrospond to the functions input and the third and fourth collumn are oracle calls result.
+This code generates all 76 possible PrA compression functions with 2 inputs and 2 random oracle calls. Each function is presented as a 3 $\times$ 4 matrix where the first two rows correspond to the first and second oracle calls input and the third row correspond to the function result. The first and second columns also correspond to the function's input and the third and fourth columns are oracle calls results.
 
 
 ### PrAConstant2Inputs2calls.m
-This code generates all 532 compression functions which utilizes a constant $v$ in its construction. The constant corrosponf to the third collumn.
+This code generates all 532 compression functions which utilize a constant $v$ in its construction. The constant corresponds to the third column.
 #### Example
 This example shows how to write the PrA function given the matrix representation.
 
