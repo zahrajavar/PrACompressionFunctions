@@ -15,4 +15,4 @@ $$A=\begin{matrix}
  \left\lbrack \matrix{0 & 1 & 1 & 0 & 1\\\\1 & 1 & 1 & 0 & 0\\\\1 & 1 & 1 & 1 & 1} \right\rbrack\\\\
 \end{matrix}$$
 
-The equivalent compression function is $f(x,y)=f_1(y\oplus v\oplusf_2(x\oplusy\oplusv))\oplusf_2(x\oplusy\oplusv)\oplusx\oplusy\oplusv$
+The equivalent compression function is $f(x,y)=f_1(y \oplus v \oplus f_2(x \oplus y \oplus v)) \oplus f_2(x \oplus y \oplus v)\oplus x \oplus y \oplus v$
